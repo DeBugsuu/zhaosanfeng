@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你是有大病</title>
+</head>
+<style>
+    rem px  em
+    .dage{
+        width: 800px;
+        height: 800px;
+        display: flex;
+        justify-content: 定义了项目在主轴对齐方式;
+        justify-content: flex-start; 
+        /*
+       flex-direction定义在主轴方向
+       justify-content: center; 
+       决定主轴方向有四个属性,row 从左向右水平 row=reverse 从右往左水平
+       column 垂直方向,起点往上 column——reverse 垂直起点往下  */
+        flex-direction: row; 
+
+        /* flex-wrap: nowrap; */
+
+        align-items: center;
+        border: 3px solid #ddd;
+    
+    }
+    .dd{
+        height: 200px;
+        width: 200px;
+        color: aqua;
+        background-color: aqua;
+     ;
+    }
+    .ff{
+        height: 150px;
+        width: 150px;
+        color: aqua;
+        background-color: rgb(130, 58, 189);
+
+    }
+    .ee{
+        height: 100px;
+        width: 100px;
+        color: aqua;
+        background-color: rgb(191, 42, 109);
+       
+    }
+ 
+</style>
+<body>
+    <div class="dage">
+
+  
+    <div class="dd">
+        我是大盒子
+    </div> 
+    <div class="ff">
+        我是中盒子
+    </div>
+    <div class="ee">
+        我是小盒子
+    </div>
+</div>
+</body>
+</html>
